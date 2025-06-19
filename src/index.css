@@ -1,0 +1,94 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%; /* Light mode background - white */
+    --foreground: 240 10% 3.9%; /* Light mode foreground - dark gray */
+
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+
+    --primary: 200 90% 50%; /* Sky blue for primary */
+    --primary-foreground: 0 0% 100%; /* White for primary text */
+
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+
+    --accent: 180 70% 50%; /* Teal for accent */
+    --accent-foreground: 240 5.9% 10%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 200 90% 50%; /* Sky blue for ring */
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71% 4%; /* Very dark blue - slate-950 like */
+    --foreground: 210 20% 98%; /* Very light gray - slate-50 like */
+
+    --card: 222 47% 11%; /* Dark blue - slate-900 like */
+    --card-foreground: 210 20% 98%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 210 20% 98%;
+
+    --primary: 190 80% 55%; /* Sky-400 like */
+    --primary-foreground: 222 47% 11%;
+
+    --secondary: 215 28% 17%; /* Slate-800 like */
+    --secondary-foreground: 210 20% 98%;
+
+    --muted: 215 28% 17%;
+    --muted-foreground: 218 11% 65%; /* Slate-400 like */
+
+    --accent: 160 70% 45%; /* Teal-500 like */
+    --accent-foreground: 210 20% 98%;
+
+    --destructive: 0 72% 51%; /* Red-600 like */
+    --destructive-foreground: 210 20% 98%;
+
+    --border: 215 28% 17%;
+    --input: 215 28% 17%;
+    --ring: 190 80% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    @apply scroll-smooth;
+  }
+  body {
+    @apply bg-background text-foreground font-roboto;
+    /* Apply dark mode by default */
+    @apply dark;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-poppins;
+  }
+}
+
+@layer utilities {
+  .section-padding {
+    @apply py-16 md:py-24 px-6 md:px-12;
+  }
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-sky-400 to-teal-400;
+  }
+}
