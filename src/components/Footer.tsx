@@ -79,7 +79,7 @@ const Footer: React.FC = () => {
             </h4>
             <div className="flex space-x-4 mb-6">
               <a
-                href="https://github.com/mjafarsaberi"
+                href="https://github.com/mohammadjafarsaberi"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
@@ -87,7 +87,7 @@ const Footer: React.FC = () => {
                 <Github className="h-7 w-7" />
               </a>
               <a
-                href="https://linkedin.com/in/mohammad-jafar-saberi"
+                href="https://www.linkedin.com/in/mohammad-jafar-saberi-518678248/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
@@ -95,7 +95,7 @@ const Footer: React.FC = () => {
                 <Linkedin className="h-7 w-7" />
               </a>
               <a
-                href="https://twitter.com/mjafarsaberi"
+                href="https://x.com/M_Jafar_Saberi"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
@@ -125,7 +125,7 @@ const Footer: React.FC = () => {
               </a>
             </p>
             <p className="text-muted-foreground">
-              Location: Kabul, Afghanistan (Optional - Or City, Country)
+              Location: Kabul, Afghanistan
             </p>
           </div>
         </div>

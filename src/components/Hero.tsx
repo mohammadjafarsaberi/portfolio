@@ -1,9 +1,8 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Download } from "lucide-react";
-
+import MyProfile from "../../public/saberi.jpeg";
 // You can replace this URL with the actual path to your image once uploaded
-const placeholderImageUrl = "../../public/saberi.jpeg";
 
 const Hero: React.FC = () => {
   return (
@@ -60,7 +59,7 @@ const Hero: React.FC = () => {
         >
           <div className="aspect-square rounded-full overflow-hidden shadow-2xl mx-auto md:mx-0 w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 border-4 border-primary/50">
             <img
-              src={placeholderImageUrl}
+              src={MyProfile}
               alt="Mohammad Jafar Saberi - Software Developer"
               className="w-full h-full object-cover"
             />
