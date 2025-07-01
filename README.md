@@ -1,6 +1,6 @@
 # Portfolio - Mohammad Jafar Saberi
 
-![Preview](./public/portfolio.png)
+![Preview](./public/portfolio.jpg)
 
 Modern developer portfolio built with React, TypeScript, and Tailwind CSS.
 
