@@ -1,14 +1,12 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import ReactMap from "../../public/afg-map-screenshot.jpg";
-import Portfolio from "../../public/portfolio.jpg";
-import PasswordGenerator from "../../public/password-generator.jpg";
+
 const projectsData = [
   {
     title: "React AFG Map",
     description:
       "An interactive map of Afghanistan built with React and Leaflet.js. Features region highlighting, data visualization, and responsive design.",
-    imageUrl: ReactMap, // Add actual screenshot to public folder
+    imageUrl: "/afg-map-screenshot.jpg", // Add actual screenshot to public folder
     tags: ["React", "JavaScript", "Leaflet.js", "GeoJSON"],
     liveUrl: "https://react-afg-map.netlify.app/",
     repoUrl: "https://github.com/mohammadjafarsaberi/react-map",
@@ -17,7 +15,7 @@ const projectsData = [
     title: "Password Generator",
     description:
       "A secure password generator with customizable options (length, character types). Built with vanilla JavaScript and CSS.",
-    imageUrl: PasswordGenerator, // Add screenshot
+    imageUrl: "/password-generator.jpg", // Add screenshot
     tags: ["JavaScript", "CSS", "Security"],
     liveUrl: null, // No live demo
     repoUrl: "https://github.com/mohammadjafarsaberi/password-generator",
@@ -26,7 +24,7 @@ const projectsData = [
     title: "Portfolio Website",
     description:
       "This responsive portfolio website built with React, TypeScript, and Tailwind CSS. Features modern animations and clean UI.",
-    imageUrl: Portfolio, // Add screenshot
+    imageUrl: "/portfolio.jpg", // Add screenshot
     tags: ["React", "TypeScript", "Tailwind CSS", "Responsive Design"],
     liveUrl: window.location.href, // Links to current site
     repoUrl: "https://github.com/mohammadjafarsaberi/portfolio",
@@ -58,16 +56,6 @@ const Projects: React.FC = () => {
             />
           ))}
         </div>
-
-        {/* Optional: Coming Soon Section */}
-        {/* <div className="mt-12 text-center">
-          <h3 className="text-xl font-semibold text-muted-foreground mb-2">
-            Currently Building:
-          </h3>
-          <p className="text-muted-foreground/80">
-            E-commerce platform • Task management app • AI chatbot integration
-          </p>
-        </div> */}
       </div>
     </section>
   );
