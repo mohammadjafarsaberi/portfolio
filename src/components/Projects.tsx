@@ -1,8 +1,8 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import ReactMap from "../../public/afg-map-screenshot.png";
-import Portfolio from "../../public/portfolio.png";
-import PasswordGenerator from "../../public/password-generator.png";
+import ReactMap from "../../public/afg-map-screenshot.jpg";
+import Portfolio from "../../public/portfolio.jpg";
+import PasswordGenerator from "../../public/password-generator.jpg";
 const projectsData = [
   {
     title: "React AFG Map",

@@ -4,19 +4,24 @@
 
 Modern developer portfolio built with React, TypeScript, and Tailwind CSS.
 
+## Live Demo
+
+🔗 [https://jafar-saberi-portfolio.netlify.app/](https://jafar-saberi-portfolio.netlify.app/)
+
 ## Features
 
 - Responsive design
 - Project showcase
 - Downloadable CV
 
-## Tech
+## Tech Stack
 
 - React + TypeScript
 - Tailwind CSS
 - Vite
+- Hosted on Netlify
 
-## Setup
+## Local Development
 
 ```bash
 git clone https://github.com/mohammadjafarsaberi/portfolio.git

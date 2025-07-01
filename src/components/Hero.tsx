@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Download } from "lucide-react";
-import MyProfile from "../../public/saberi.jpeg";
+import MyProfile from "../../public/saberi.jpg";
 // You can replace this URL with the actual path to your image once uploaded
 
 const Hero: React.FC = () => {
